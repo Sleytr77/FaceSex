@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>FaceSexEscolar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+</head>
+<body>
+  <h1>Garotas da escola, Gabriel Sales Pimenta</h1>
+  <h2>Quem é a mais gostosa?</h2>
+
+  <div class="container">
+    <div class="voter">
+      <img id="img1" onclick="vote(0)">
+      <p id="name1" class="name"></p>
+    </div>
+    <div class="voter">
+      <img id="img2" onclick="vote(1)">
+      <p id="name2" class="name"></p>
+    </div>
+  </div>
+  
+  <h4>⬇️Ate agora 44 garotas⬇️</h4>
+
+  <div class="ranking-box">
+    <h3>Ranking Sex</h3>
+    <ul id="rankingList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

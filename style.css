@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #f54291;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.voter img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.voter img:hover {
+  transform: scale(1.05);
+  border: 2px solid #f54291;
+}
+
+.name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.ranking-box {
+  margin-top: 40px;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#rankingList {
+  list-style: none;
+  padding: 0;
+}
+
+#rankingList li {
+  margin: 5px 0;
+}
